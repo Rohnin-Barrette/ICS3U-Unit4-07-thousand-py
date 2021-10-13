@@ -6,15 +6,14 @@
 
 
 def main():
-    loop_counter = 1000
 
     # process
     for loop_counter in range(1000, 2000 + 1):
         if loop_counter % 5 == 4:
             print("{0} ".format(loop_counter))
         else:
-            print("{0} ".format(loop_counter), end ="")
-    print("\nDone.")
+            print("{0} ".format(loop_counter), end="")
+    print("\n\nDone.")
 
 
 if __name__ == "__main__":
